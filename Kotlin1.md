@@ -46,10 +46,10 @@
 8. 반복문
   - for : for (name in student){} 리스트의 값 활용<br>
           for ((index, name) in student.withIndex()){} 리스트의 인덱스와 값 활용<br>
-          for (i in 1..10) : 1~10<br>
+          for (i in 1..10) : 1 부터 10<br>
           - step 2 : 2씩 증가<br>
-          - 10 downTo 1 : 10~1<br>
-          - 1 until 100 : 1~99<br>
+          - 10 downTo 1 : 10 부터 1<br>
+          - 1 until 100 : 1 부터 99<br>
   - while : while(조건) { 동작 } 조건이 참일 때 까지 반복
   
 9. NULL
