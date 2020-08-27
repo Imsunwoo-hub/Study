@@ -19,7 +19,7 @@
 3. String Template
   - 문자열 사이에 변수값을 활용할 수 있음
   - $변수명 or ${변수명}
-  - $를 문자로 사용하고 싶은 경우 \$사용
+  - $를 문자로 사용하고 싶은 경우 "\$"사용
 
 4. 주석
   - 한 줄 주석 : //
@@ -46,7 +46,8 @@
 8. 반복문
   - for : for (name in student){} 리스트의 값 활용
           for ((index, name) in student.withIndex()){} 리스트의 인덱스와 값 활용
-          for (i in 1..10) 1~10, step 2 추가 시 2씩 증가, 10 downTo 1 10~1, 1 until 100 1~99
+          for (i in 1..10) 1~10
+          step 2 2씩 증가, 10 downTo 1 10~1, 1 until 100 1~99
   - while : while(조건) { 동작 } 조건이 참일 때 까지 반복
   
 9. NULL
